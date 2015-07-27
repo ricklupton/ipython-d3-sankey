@@ -1,5 +1,5 @@
 // the immediately-called closure and 'use strict' helps ensure hygiene
-;(function(define) {
+;(function(require, define) {
 'use strict';
  /**
   * The browser-side counterpart to D3Sankey
@@ -9,6 +9,14 @@
   * @version 0.1.0
   * @license MIT
   */
+
+// Set up require to load d3 before the sankey plugin
+require.config({
+  shim: {
+    './sankey': ['./d3.min'],
+  },
+});
+
 define([
   // libraries
   'jquery',
@@ -179,4 +187,4 @@ define([
     D3SankeyView: D3SankeyView
   };
 });
-}).call(this, define);
+}).call(this, require, define);
