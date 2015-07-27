@@ -1,0 +1,19 @@
+{
+  "name": "ipythond3sankey",
+  "version": "0.1.0",
+  "description": "an IPython widget for the d3 Sankey plugin",
+  "repository": "https://github.com/ricklupton/ipython-d3-sankey",
+  "authors": [
+    "Rick Lupton <r.lupton@gmail.com>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+  }
+}

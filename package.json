@@ -1,0 +1,19 @@
+{
+  "name": "ipythond3sankey",
+  "repository": "https://github.com/ricklupton/ipython-d3-sankey",
+  "version": "0.1.0",
+  "description": "an IPython widget for the d3 Sankey plugin",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "jshint": "./node_modules/jshint/bin/jshint ipythond3sankey/static/ipythond3sankey/js/*.js",
+    "less": "./node_modules/less/bin/lessc ipythond3sankey/static/less/widget_d3sankey.less ipythond3sankey/static/ipythond3sankey/css/widget_d3sankey.css"
+  },
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "casperjs": "*",
+    "less": "*",
+    "jshint": "*"
+  }
+}

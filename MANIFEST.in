@@ -1,0 +1,13 @@
+include AUTHORS.rst
+include CONTRIBUTING.rst
+include HISTORY.rst
+include LICENSE
+include README.rst
+
+recursive-include ipythond3sankey/tests *
+recursive-include ipythond3sankey/static *
+
+recursive-include docs *.rst conf.py Makefile make.bat
+
+recursive-exclude * __pycache__
+recursive-exclude * *.py[co]

@@ -1,0 +1,18 @@
+/* namespaced CSS directives */
+.ipythond3sankey.D3SankeyView .node rect {
+  cursor: move;
+  fill-opacity: .9;
+  shape-rendering: crispEdges;
+}
+.ipythond3sankey.D3SankeyView .node text {
+  pointer-events: none;
+  text-shadow: 0 1px 0 #fff;
+}
+.ipythond3sankey.D3SankeyView .link {
+  fill: none;
+  stroke: #000;
+  stroke-opacity: .2;
+}
+.ipythond3sankey.D3SankeyView .link:hover {
+  stroke-opacity: .5;
+}
