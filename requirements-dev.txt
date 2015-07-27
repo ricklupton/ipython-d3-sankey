@@ -2,3 +2,4 @@
 flake8
 nose
 requests
+bumpversion
