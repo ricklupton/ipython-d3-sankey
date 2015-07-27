@@ -1,6 +1,6 @@
 {
   "name": "ipythond3sankey",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "an IPython widget for the d3 Sankey plugin",
   "repository": "https://github.com/ricklupton/ipython-d3-sankey",
   "authors": [
